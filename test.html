@@ -1,0 +1,96 @@
+<html>
+    <head><title>SISTEM PENGURUSAN KEHADIRAN</title></head>
+    <body>
+        <style>
+            table, tr, td {
+            border: 0px solid black;
+            border-collapse: collapse;
+            padding: 0px;
+            margin: 0px;
+          }
+          td{
+            text-align:center;
+          }
+           .table1{
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 15%;
+            border: 1px solid rgb(0, 0, 0);
+            width: 70%;
+            font-size: 20px;
+            position: center;
+          }
+
+          
+        </style>
+        <table style="width:100%;">
+            <tr>
+                <td><img src="logoX.png" alt="logo persatuan golongan oku eng huat"style="width:150px"></td>
+                <td style="font-size: 35px; text-align: center;">PERSATUAN KEBAJIKAN GOLONGAN OKU ENG HUAT<br>SISTEM PENGURUSAN KEHADIRAN</td>
+                <td style="width:150px"></td>
+            </tr>
+            <!-- 3 columns in total  -->
+            <!-- a line -->
+            <tr style="background-color: rgb(54, 77, 119);">
+                <td colspan="3" style="height: 4px;"></td>
+            </tr>
+            <!-- WarnaLatar, WarnaTulisan -->
+            <tr> 
+                <td><!-- hambnurgur bar here --></td>
+                <td colspan="2"  style="text-align: right;font-size: 25px;">Warna Tulisan <img src="colorPurple.png" alt="warna unggu"style="width:15px";>  <img src="colorBlue.png" alt="warna biru"style="width:15px";> <img src="colorRed.png" alt="warna merah"style="width:15px";> <img src="colorYellow.png" alt="warna kuning"style="width:15px";>  <img src="colorGreen.png" alt="warna hijau"style="width:15px";> &emsp;
+                    Warna Latar <img src="colorPurple.png" alt="warna unggu"style="width:15px";>  <img src="colorBlue.png" alt="warna biru"style="width:15px";> <img src="colorRed.png" alt="warna merah"style="width:15px";> <img src="colorYellow.png" alt="warna kuning"style="width:15px";>  <img src="colorGreen.png" alt="warna hijau"style="width:15px";>&emsp;
+                </td>
+            </tr>
+            <!-- Name of page (ex:LOG MASUK) -->
+            <tr style="background-color: rgb(54, 77, 119);">
+                <td colspan="3" style="font-size: 35px; text-align: center; padding-top: 5px; padding-bottom: 5px; color:aliceblue;">LOG MASUK</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <table class="table1"> <!-- log in table -->
+                        <tr><!--for spacing-->
+                            <td colspan="3" style="height: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;padding-left: 20px;width: 200px">IDPengguna</td>
+                            <td style="width: 20px">:</td>
+                            <td><input type="text" id="IDPengguna" name="IDPengguna" style="width: 90%; height: 40px; font-size: 20px;"></td>
+                        </tr>
+                        <tr> <!--for spacing-->
+                            <td colspan="3" style="height: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;padding-left: 20px;">KataLaluan</td>
+                            <td>:</td>
+                            <td><input type="password" id="KataLaluan" name="KataLaluan" style="width: 90%; height: 40px; font-size: 20px;"></td>
+                        </tr>
+                        <tr><!--for spacing-->
+                            <td colspan="3" style="height: 23px;"></td>
+                        </tr>
+                            <td colspan="2" style="text-align: left;padding-left: 20px;">Jenis Pengguna</td>
+                            <td><input type="radio" id="ahli" name="ahli" value="ahli">
+                                <label for="ahli"> Ahli</label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                <input type="radio" id="ketua" name="ketua" value="ketua">
+                                <label for="ketua"> Ketua</label>
+                            </td>
+                        <tr><!--for spacing-->
+                            <td colspan="3" style="height: 100px;"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: left; padding-left: 20px;width: 200px">Pengguna baharu? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Daftar sini</a>
+                            </td>
+                        </tr>
+                        <tr><!--for spacing-->
+                            <td colspan="3" style="height: 100px;"></td>
+                        </tr>
+                        <tr><!--for spacing-->
+                            <td colspan="3"><input type="button" value="LOG MASUK" class="button" style="width: 140px; height: 40px"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+    </body>
+</html>
